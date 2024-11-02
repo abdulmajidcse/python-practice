@@ -10,3 +10,7 @@ date2 = datetime(2020, 10, 15)
 diff = date1 - date2
 
 print(diff.days)
+
+import calendar
+
+print(calendar.TextCalendar().formatyear(2024))
